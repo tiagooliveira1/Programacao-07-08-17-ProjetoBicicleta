@@ -6,6 +6,7 @@ public class MainTeste {
 		
 		System.out.println("início");
 		
+		System.out.println( "Acessando static: "+Bicicleta.velocidade );		
 		
 		Bicicleta bike = new Bicicleta();
 		System.out.println( "Cadência: "+bike.getCadencia() );
