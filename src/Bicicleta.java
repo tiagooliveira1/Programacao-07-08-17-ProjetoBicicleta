@@ -34,7 +34,7 @@ public class Bicicleta {
 	/**
 	 * Método para setar a velocidade atual 
 	 * 
-	 * @param tipo float - velocidade atual
+	 * @param velocidade float - velocidade atual
 	 */
 	public void setVelocidade(float velocidade) {
 		this.velocidade = velocidade;
@@ -42,7 +42,7 @@ public class Bicicleta {
 	/**
 	 * Método para retornar a cadência 
 	 * 
-	 * @return tipo int - cadência atual
+	 * @return cadencia int - cadência atual
 	 */
 	public int getCadencia() {
 		return cadencia;
@@ -50,7 +50,7 @@ public class Bicicleta {
 	/**
 	 * Método para setar a cadência atual 
 	 * 
-	 * @param tipo int - cadência atual
+	 * @param cadencia int - cadência atual
 	 */
 	public void setCadencia(int cadencia) {
 		this.cadencia = cadencia;
@@ -67,7 +67,7 @@ public class Bicicleta {
 	/**
 	 * Método para setar a marcha atual 
 	 * 
-	 * @param tipo int - marcha atual
+	 * @param marcha int - marcha atual
 	 */
 	public void setMarcha(int marcha) {
 		this.marcha = marcha;
