@@ -6,9 +6,14 @@ public class MainTeste {
 		
 		System.out.println("início");
 		
-		System.out.println( "Acessando static: "+Bicicleta.velocidade );		
-		
+		// definindo atributo bicicleta para exemplificar comentários  
 		Bicicleta bike = new Bicicleta();
+		
+		/* 
+		 * Exemplo de Comentários em bloco
+		 * 
+		 */
+		
 		System.out.println( "Cadência: "+bike.getCadencia() );
 		System.out.println( "Velocidade: "+bike.getVelocidade() );
 		System.out.println( "Marcha: "+bike.getMarcha() );
