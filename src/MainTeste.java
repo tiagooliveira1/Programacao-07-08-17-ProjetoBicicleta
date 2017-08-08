@@ -7,7 +7,7 @@ public class MainTeste {
 		System.out.println("início");
 		
 		// definindo atributo bicicleta para exemplificar comentários  
-		Bicicleta bike = new Bicicleta();
+		Bicicleta bike = new Bicicleta(56.3f, 1, 70);
 		
 		/* 
 		 * Exemplo de Comentários em bloco
