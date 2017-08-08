@@ -7,18 +7,18 @@ public class MainTeste {
 		System.out.println("início");
 		
 		// definindo atributo bicicleta para exemplificar comentários  
-		Bicicleta bike = new Bicicleta(56.3f, 1, 70);
+		Bicicleta bike = new Bicicleta(56.3f, 12, 70);
 		
 		/* 
 		 * Exemplo de Comentários em bloco
 		 * 
 		 */
 		
-		System.out.println( "Cadência: "+bike.getCadencia() );
-		System.out.println( "Velocidade: "+bike.getVelocidade() );
+		System.out.println( "Cadência: "+bike.getCadencia() + " RPM" );
+		System.out.println( "Velocidade: "+bike.getVelocidade() +" Km/H");
 		System.out.println( "Marcha: "+bike.getMarcha() );
 		
-		System.out.println("fim");
+		System.out.println("Acabou.");
 	}
 
 }
