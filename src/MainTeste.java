@@ -2,7 +2,7 @@
 public class MainTeste {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO: Falta fazer alguma coisa. Exemplo de TODO
 		
 		System.out.println("início");
 		
