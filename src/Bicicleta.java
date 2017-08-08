@@ -1,7 +1,7 @@
 
 public class Bicicleta {
 	
-	static float velocidade = 0;
+	private float velocidade = 0;
 	private int cadencia = 0;
 	private int marcha = 0;
 	
